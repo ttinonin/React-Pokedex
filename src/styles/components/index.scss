@@ -1,0 +1,29 @@
+.header{
+    padding: $m-size;
+    background: $off-black;
+}
+
+h1{
+    color: lighten(purple, 10);
+}
+
+.index__body{
+    display: table;
+    margin-top: $xl-size;
+    margin-left: auto;
+    margin-right: auto;
+    padding: $l-size;
+    background: lighten($off-black, 10);
+}
+
+.query{
+    padding: 1rem;
+    width: 28rem;
+}
+
+.img{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1rem;
+}

@@ -1,0 +1,12 @@
+html{
+    // this sets the rem to a more valid translation to px
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $m-size;
+    background: lighten($off-black, 20);
+    color: darken(white, 10);
+}
